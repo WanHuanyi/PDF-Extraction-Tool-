@@ -21,7 +21,16 @@ A powerful, web-based tool for extracting text, tables, and images from PDF docu
 - **Backend**: Python, FastAPI, PyMuPDF (fitz), pdfplumber, Pandas
 - **Frontend**: React, Vite, Vanilla CSS
 
-## 🚀 Getting Started (快速开始)
+## 🚀 Quick Start (一键启动)
+
+**For macOS/Linux:**
+```bash
+./start.sh
+```
+This script will automatically set up environments and start both backend and frontend.
+该脚本会自动配置环境并启动后端和前端。
+
+## 🚀 Manual Setup (手动安装)
 
 ### Prerequisites (前置要求)
 - Python 3.9+
