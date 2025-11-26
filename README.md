@@ -23,7 +23,11 @@ A powerful, web-based tool for extracting text, tables, and images from PDF docu
 
 ## 🚀 Quick Start (一键启动)
 
-**For macOS/Linux:**
+**For macOS (Double-click / 双击运行):**
+Double-click `start.command` in Finder. This will open a terminal window and automatically launch the browser.
+在 Finder 中双击 `start.command`。这将打开一个终端窗口并自动启动浏览器。
+
+**For Linux/macOS (Terminal):**
 ```bash
 ./start.sh
 ```

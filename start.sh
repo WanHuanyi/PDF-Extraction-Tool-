@@ -74,6 +74,9 @@ echo "✨ Application will be available at: http://localhost:5173"
 echo "✨ 应用将在 http://localhost:5173 启动"
 echo "Press Ctrl+C to stop."
 
+# Open browser after a slight delay to allow server to start
+(sleep 3 && open "http://localhost:5173") &
+
 npm run dev
 
 # Cleanup if npm run dev exits
