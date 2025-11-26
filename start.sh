@@ -34,9 +34,10 @@ if [ ! -d ".venv" ]; then
     python3 -m venv .venv
 fi
 
-echo "   Installing/Updating Python dependencies..."
+echo "   Installing/Updating Python dependencies (This may take a few minutes)..."
+echo "   正在安装/更新 Python 依赖（首次运行可能需要几分钟）..."
 source .venv/bin/activate
-pip install -r requirements.txt > /dev/null 2>&1
+pip install -r requirements.txt
 
 echo "✅ Backend ready."
 
@@ -52,8 +53,9 @@ echo "📦 Setting up Frontend..."
 cd frontend
 
 if [ ! -d "node_modules" ]; then
-    echo "   Installing Node dependencies (this may take a while)..."
-    npm install > /dev/null 2>&1
+    echo "   Installing Node dependencies (This may take a few minutes)..."
+    echo "   正在安装前端依赖..."
+    npm install
 fi
 
 echo "✅ Frontend ready."
